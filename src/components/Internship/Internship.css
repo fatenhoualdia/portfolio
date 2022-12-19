@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+.exp__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    width: 90%;
+}
+h3 {
+  margin: 10px 0;
+}
+
+h6 {
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 12px;
+  line-height: 21px;
+  text-align: left;
+  margin: 1rem;
+  color: var(--color-white);
+  
+}
+
+.card-container {
+  background-color: #303c63;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+  color: #B3B8CD;
+  padding-top: 30px;
+  position: relative;
+  max-width: 100%;
+  height: 80vh;
+  text-align: center;
+}
+
+
+
+.card-container:hover {
+  background: var(--colot-bg-variant); 
+  box-shadow: 0px 10px 20px -10px rgba(39, 162, 184, 0.75);
+
+
+}
+
+
+.card-container .pro {
+  color: #231E39;
+  background-color: #FEBB0B;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 3px 7px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.card-container .round {
+  border: 1px solid #03BFCB;
+  background: var(--color-white);
+  border-radius: 50%;
+  padding: 4px;
+  width: 60px;
+  height: 60px;
+  margin: -1rem 1rem 0rem 18rem;
+  object-fit: fill;
+}
+
+
+.skills {
+  background-color: #0f0a24;
+  text-align: left;
+  padding: 15px;
+  position:absolute;
+  bottom: 0;
+}
+
+.skills ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills ul li {
+  border: 1px solid #2D2747;
+  border-radius: 2px;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 7px 7px 0;
+  padding: 7px;
+}
+
+
+@media screen and (max-width: 1115px) {
+
+  .container.exp__container{
+      grid-template-columns: 1fr 1fr;
+      gap:2rem;
+      
+  }
+  .skills{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .container.exp__container{
+      grid-template-columns: 1fr;
+      gap:2rem;
+      
+  }
+  .skills{
+    width: 100%;
+  }
+}
+
+/* =========== MEDIA QUERY (SMALL DEVICES) ==============*/
+
+@media screen and (max-width: 600px) {
+
+  .container.exp__container{
+      width: var(--container-width-sm);
+  }
+}
