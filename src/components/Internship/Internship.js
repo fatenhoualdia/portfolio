@@ -34,7 +34,7 @@
               src={STEG}
               alt="user"
             />
-            <h3>District STEG Gafsa </h3>
+            <h3> COMPANY STEG Gafsa </h3>
             <h6>Graduation end of study Internship</h6>
             <p> <AiFillCheckCircle style={{ color: "green" }}/>
             development of a web application for managing the monitoring and control of projects for the company STEG
